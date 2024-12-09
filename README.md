@@ -4,8 +4,8 @@
 
 ## 🌐 Tecnologías Utilizadas
 
-- **HTML5:** Para estructurar el contenido de la página.  
-- **CSS3:** Para diseñar y estilizar los elementos visuales.  
+- **HTML:** Para estructurar el contenido de la página.  
+- **CSS:** Para diseñar y estilizar los elementos visuales.  
 
 ---
 
