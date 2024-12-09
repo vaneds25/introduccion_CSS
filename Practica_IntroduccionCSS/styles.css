@@ -1,0 +1,76 @@
+/* ===== Estilos Generales ===== */
+body {
+    font-family: Arial, sans-serif; /* Fuente limpia y legible */
+    line-height: 1.6; /* Mejora el espacio entre líneas */
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina relleno predeterminado */
+    background-color: #f9f9f9; /* Fondo claro para contraste */
+    color: #333; /* Color de texto oscuro */
+}
+
+h1, h2 {
+    color: #006400; /* Verde oscuro para títulos */
+}
+
+h3 {
+    color: #8B0000; /* Rojo oscuro para subtítulos */
+}
+
+/* ===== Selectores ===== */
+.header {
+    text-align: center; /* Centra el texto del encabezado */
+    padding: 20px; /* Espaciado interno */
+    background-color: #dcdcdc; /* Fondo gris claro */
+    border-bottom: 2px solid #006400; /* Línea verde debajo */
+}
+
+.header p {
+    font-style: italic; /* Estilo cursivo para la frase */
+}
+
+/* ===== Estilo de Secciones ===== */
+.intro, .problems {
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Centrado automático */
+    max-width: 800px; /* Ancho máximo */
+    background-color: white; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* ===== Display Flex ===== */
+.problems {
+    display: flex; /* Flexbox para alinear elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+.problem {
+    flex: 1 1 calc(50% - 20px); /* Dos columnas iguales con espacio entre ellas */
+    background-color: #fafafa; /* Fondo gris muy claro */
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: transform 0.3s ease; /* Transición suave para hover */
+}
+
+/* ===== Efecto Hover ===== */
+.problem:hover {
+    transform: translateY(-10px); /* Mueve el bloque hacia arriba al pasar el mouse */
+    border-color: #006400; /* Cambia el color del borde */
+}
+
+/* ===== Display Grid ===== */
+.footer {
+    display: grid; /* Crea un diseño de rejilla */
+    place-items: center; /* Centra el contenido horizontal y verticalmente */
+    padding: 10px; /* Espaciado interno */
+    background-color: purple; /* Fondo oscuro */
+    color: white; /* Texto en blanco */
+}
+
+/* ===== Estilo Responsivo ===== */
+@media (max-width: 768px) {
+    .problem {
+        flex: 1 1 100%; /* Cambia a una columna en pantallas pequeñas */
+    }
+}

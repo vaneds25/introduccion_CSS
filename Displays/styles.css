@@ -1,0 +1,54 @@
+/* Inline-block: Permite alinear elementos horizontalmente como inline,
+   pero permite ajustar sus propiedades de tamaño (width, height, margin, padding). */
+   .menu-inline-block nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.menu-inline-block nav a:hover {
+    background-color: #45a049; /* Cambia de color al pasar el mouse */
+}
+
+/* Flex: Organiza los elementos en una fila o columna con control sobre su alineación. */
+.flex-container {
+    display: flex; /* Define un contenedor flexible */
+    justify-content: space-around; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4; /* Fondo claro para distinguir el área */
+}
+.flex-item {
+    background-color: #2196F3; /* Fondo azul para los elementos */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Grid: Organiza los elementos en una cuadrícula bidimensional (filas y columnas). */
+.grid-container {
+    display: grid; /* Define un contenedor en rejilla */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 10px; /* Espacio entre filas y columnas */
+    margin: 20px;
+    padding: 10px;
+    background-color: #e8e8e8; /* Fondo claro para distinguir el área */
+}
+.grid-item {
+    background-color: #FF5722; /* Fondo naranja para los elementos */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* None: Oculta completamente el elemento (no ocupa espacio en la página). */
+.hidden-message {
+    display: none; /* Este elemento no será visible ni ocupará espacio */
+}

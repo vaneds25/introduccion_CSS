@@ -1,0 +1,31 @@
+/* Selector de atributo: elementos <a> que tienen un atributo "title" */
+a[title] {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Selector de atributo con un valor específico */
+a[href="https://google.com"] {
+    color: red;
+    font-weight: bold;
+}
+
+/* Pseudoclase: Cambiar el estilo de un botón cuando el mouse pasa por encima */
+button:hover {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pseudoelemento: Estilizar la primera línea de un párrafo */
+p::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+/* Combinador: Seleccionar solo los párrafos hijos directos de un artículo */
+article > p {
+    background-color: lightgray;
+    padding: 10px;
+}

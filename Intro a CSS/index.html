@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Primera Página con CSS</title>
+
+    <!-- Vinculando el archivo CSS externo
+     
+    La etiqueta <link> es como una flecha que 
+    apunta hacia tu archivo CSS. Con el atributo rel="stylesheet", 
+    le decimos al navegador que este es un archivo de estilos,
+     y con href="styles.css", especificamos la ruta o el nombre
+    del archivo CSS que queremos usar.
+    
+    -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Aquí va el contenido de tu página -->
+
+    <h1>¡Hola, mundo!</h1>
+
+    <p>Esta es mi primera página web con CSS.</p>
+
+    <!-- solo necesitas agregar la clase a los elementos que quieras estilizar a través del
+      atributo “class” en la etiqueta de apertura de dichos elementos: -->
+    <p class="mi-clase">Este párrafo tiene un fondo amarillo.</p>
+
+    
+
+    <!-- Imagina que hay un único estudiante en tu clase al que quieres darle un estilo especial,
+      diferente de todos los demás.
+      Aquí es donde usas los selectores de ID (identificador).
+      Cada ID debe ser único dentro de tu página.
+    En CSS, los selectores de ID comienzan con una almohadilla (#). -->
+    <h1 id="mi-id">¡Soy único y tengo un tamaño de fuente diferente!</h1>
+
+</body>
+
+</html>
